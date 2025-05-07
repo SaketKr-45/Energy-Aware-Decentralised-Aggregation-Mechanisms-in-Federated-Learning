@@ -1,2 +1,11 @@
-# Energy Aware Decentralised Aggregation Mechanisms in Federated Learning
- This project introduces an energy-conscious, decentralized approach to Federated Learning (FL), focusing on enhancing privacy, scalability, and efficiency in distributed machine learning. It moves away from traditional FL models that depend on a central server for model aggregation, thereby avoiding potential single points of failure, latency, and energy inefficiency. The research delves into decentralized FL architectures where model updates are shared directly among clients via peer-to-peer communication. The project investigated various decentralized strategies, including gossip-based protocols, blockchain consensus, and hierarchical clustering, with a primary focus on optimizing energy consumption. To minimize communication overhead, techniques such as adaptive client participation, energy-efficient node selection, and model sparsification were employed. The work also addresses challenges like synchronization, security threats, and the absence of incentive mechanisms. The findings indicate that a decentralized, energy-aware FL system can serve as a robust and scalable substitute for centralized systems, especially in environments that are resource-constrained and privacy-sensitive. This research provides a basis for future explorations into intelligent coordination and sustainable distributed learning.
+# 📦 Energy Aware: Decentralised Aggregation Mechanisms in Federated Learning
+This repository presents the implementation and experimental results of energy-efficient, decentralised aggregation strategies in Federated Learning (FL) systems. The proposed framework reduces communication overhead and energy consumption by using a graph-based topology and decentralised update mechanisms, replacing traditional centralised server-based aggregation.
+
+🔍 Key Features
+⚡ Energy-Aware Design: Minimises device power usage by adaptive client participation based on energy and performance trade-offs.
+
+🧠 Decentralised Aggregation: Eliminates the need for a central server using peer-to-peer model exchanges.
+
+🕸️ Graph Topology: Clients are connected through dynamic directed graphs, enhancing scalability and fault tolerance.
+
+🧪 Simulation & Results: Experiments on MNIST and CIFAR datasets demonstrating efficiency in accuracy vs. energy/performance metrics.
